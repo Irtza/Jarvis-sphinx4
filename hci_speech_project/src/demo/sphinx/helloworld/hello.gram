@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (Good morning | Open) ( Note pad | Browser);
+public <close> = (Bye | Close) ( Note pad | Browser);
